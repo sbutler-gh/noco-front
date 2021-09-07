@@ -12,9 +12,7 @@ import { onMount } from "svelte";
         setTimeout(function() {congress = "Synema"},3000);
         setTimeout(function() {congress = "Gottheimer"},4500);
         setTimeout(function() {congress = "McConnell"},6000);
-        setTimeout(function() {congress = "Paul"},7500);
-        setTimeout(function() {congress = "Pelosi"},9000);
-        setTimeout(function() {congress = "Congress"},10500);
+        setTimeout(function() {congress = "Congress"},7500);
 
 
     })
