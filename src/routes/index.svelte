@@ -61,7 +61,7 @@ import { onMount } from "svelte";
              repeatCount="indefinite" />
     </path>
     <path d="M67.408 57.834l-23.01-24.98c-5.864-6.15-5.864-16.108 0-22.248 5.86-6.14 15.37-6.14 21.234 0L70 16.168l4.368-5.562c5.863-6.14 15.375-6.14 21.235 0 5.863 6.14 5.863 16.098 0 22.247l-23.007 24.98c-1.43 1.556-3.757 1.556-5.188 0z" />
-</svg> <span class="ml-3">Waiting on you to call <a href="tel:2023181885" class="underline text-blue-500">202-318-1885</a></span>!</h2>
+</svg> <span class="ml-3">Waiting on you to call <a href="tel:2023181885" class="underline text-blue-500">202-318-1885</a> !</span></h2>
 
 <details class="text-center mt-10"><summary class="text-xl text-center" style="list-style: none;"><span class="rounded hover:bg-green-200 focus:bg-green-200 active:bg-green-200 bg-gray-200 p-4 shadow cursor-pointer">I called Congress!</span></summary>
     <h2 class="text-xl text-center font-semibold mt-8">Amazing work!  Now share <a href="https://whatcancongressdo.org" class="underline text-blue-500">whatcancongressdo.org</a> with people in your local community and neighborhood, so they can call Congress too.  <br><br> (And make sure to send it on to folks in West Virginia, Arizona, and New Jersey too — where it could make a <em>big</em> difference!)</h2>
