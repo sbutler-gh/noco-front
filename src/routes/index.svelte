@@ -4,6 +4,8 @@ import { onMount } from "svelte";
 
     let congress = "Congress";
 
+    let text_bg = "bg-green-200"
+
     onMount(() => {
 
         setTimeout(function() {congress = "Manchin"},1500);
@@ -26,21 +28,21 @@ import { onMount } from "svelte";
 <p class="text-lg text-center mb-10">Here's what they can really do ...</p>
 
 <h2 class="text-xl text-center font-semibold mt-4">1. Cut your electricity bills and create local jobs with a Clean Electricity Standard.</h2>
-<h2 class="text-xl text-center font-semibold bg-green-300">+ It'll lower your healthcare costs too, by cleaning up local air pollution.</h2>
+<h2 class="text-xl text-center font-semibold {text_bg}">+ It'll lower your healthcare costs too, by cleaning up local air pollution.</h2>
 
 <h2 class="text-xl text-center font-semibold">2. Increase community wealth through climate resilience initiatives.</h2>
-<h2 class="text-xl text-center font-semibold bg-green-300">+ An ounce of prevention is worth a pound of cure.  We can get that cure, and save ourselves a whole lot on floods and fires in the years to come — if Congress votes for it.</h2>
+<h2 class="text-xl text-center font-semibold {text_bg}">+ An ounce of prevention is worth a pound of cure.  We can get that cure, and save ourselves a whole lot on floods and fires in the years to come — if Congress votes for it.</h2>
 
 <h2 class="text-xl text-center font-semibold">3. Shift to local economies, and better jobs close to home, by cutting out highway expansion.</h2>
-<h2 class="text-xl text-center font-semibold bg-green-300">+ More highways mean more commutes — and more traffic. <br><br> Instead, Congress can put the billions in highway expansions towards local economies — making life better for everyone.  <br><br> Neigbhorhoods you can live in.  Diverse small businesses.  Greater wealth, better futures.</h2>
+<h2 class="text-xl text-center font-semibold {text_bg}">+ More highways mean more commutes — and more traffic. <br><br> Instead, Congress can put the billions in highway expansions towards local economies — making life better for everyone.  <br><br> Neigbhorhoods you can live in.  Diverse small businesses.  Greater wealth, better futures.</h2>
 
 <h2 class="text-xl text-center font-semibold">Want Congress to make this happen for you?</h2>
 <h2 class="text-xl text-center font-semibold">Let them know about it!</h2>
 
 <h2 class="text-xl text-center font-semibold"><span class="">📞 <a href="tel:2023181885" class="underline text-blue-500">Call 202-318-1885</a></span> to connect with your representatives, and ask for three things:</h2>
-<h2 class="text-xl text-center font-semibold"><span class="bg-green-300">1. A Clean Electricity Standard</span> and <span class="bg-green-300">Clean Energy Tax Credits</span>, to save money on your electricity bill and create local jobs.</h2>
-<h2 class="text-xl text-center font-semibold"><span class="bg-green-300">2. Climate resilience initiatives</span>, to save future spending and build community wealth.</h2>
-<h2 class="text-xl text-center font-semibold bg-green-300">3. Invest in <span class="bg-green-300">local economies</span>, not highways.</h2>
+<h2 class="text-xl text-center font-semibold"><span class="{text_bg}">1. A Clean Electricity Standard and Clean Energy Tax Credits</span>, to save money on your electricity bill and create local jobs.</h2>
+<h2 class="text-xl text-center font-semibold"><span class="{text_bg}">2. Climate resilience initiatives</span>, to save future spending and build community wealth.</h2>
+<h2 class="text-xl text-center font-semibold {text_bg}">3. Invest in <span class="{text_bg}">local economies</span>, not highways.</h2>
 
 <h2 class="text-xl text-center font-semibold m-auto flex mt-8">
 <svg width="70" height="32" viewBox="0 0 140 64" xmlns="http://www.w3.org/2000/svg" fill="#68e8b6">
