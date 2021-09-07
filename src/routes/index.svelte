@@ -64,7 +64,7 @@ import { onMount } from "svelte";
 </svg> <span class="ml-3">Waiting on you to call <a href="tel:2023181885" class="underline text-blue-500">202-318-1885</a></span>!</h2>
 
 <details class="text-center mt-10"><summary class="text-xl text-center" style="list-style: none;"><span class="rounded hover:bg-green-200 focus:bg-green-200 active:bg-green-200 bg-gray-200 p-4 shadow cursor-pointer">I called Congress!</span></summary>
-    <h2 class="text-xl text-center font-semibold mt-8">Amazing work!  Now share <a href="https://whatcancongressdo.com" class="underline text-blue-500">whatcancongressdo.com</a> with people in your local community and neighborhood, so they can call Congress too.  <br><br> (And make sure to send it on to folks in West Virginia, Arizona, and New Jersey too — where it could make a <em>big</em> difference!)</h2>
+    <h2 class="text-xl text-center font-semibold mt-8">Amazing work!  Now share <a href="https://whatcancongressdo.org" class="underline text-blue-500">whatcancongressdo.org</a> with people in your local community and neighborhood, so they can call Congress too.  <br><br> (And make sure to send it on to folks in West Virginia, Arizona, and New Jersey too — where it could make a <em>big</em> difference!)</h2>
 
 </details>
 
