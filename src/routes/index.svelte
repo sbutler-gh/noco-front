@@ -86,6 +86,7 @@ import OpenedTopicModal from "$lib/OpenedTopicModal.svelte";
         let body_submission = {
         "title": formData.get('title'),
         "opening_artifact_embed": formData.get('opening_artifact'),
+        "meeting_room": formData.get('meeting_room')
         }
 
         console.log(body_submission);
@@ -132,7 +133,9 @@ import OpenedTopicModal from "$lib/OpenedTopicModal.svelte";
             <textarea name="title" style="" class="mb-4 w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" type="text" placeholder="How to better manifest preferrable future states ..."></textarea>
             <label for="opening_artifact" class="block mt-4 leading-7 text-sm text-gray-600">Embed a <em>rich language</em> artifact (video, audio, image, gif, meme) to share your perspective.</label>
             <textarea name="opening_artifact" type="text" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder="<iframe> .... </iframe>"></textarea>
-            <p for="opening_artifact" class="mb-4 leading-7 text-sm text-gray-600 text-left">You can copy + paste embed code snippets from services like YouTube, Vimeo, Giphy, and Imgur.</p>
+            <p for="opening_artifact" class="mb-4 leading-7 text-xs text-gray-600 text-left" style="margin-top: -5px; line-height: 16px;">You can copy + paste embed code snippets from services like YouTube, Vimeo, Giphy, and Imgur.</p>
+            <label for="meeting_room" class="block mt-4 leading-7 text-sm text-gray-600">Add a link to an online meeting room, which people can discuss this topic whenever.</label>
+            <input name="meeting_room" style="" class="mb-4 w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" type="text" placeholder="https://meet.jit.si...">
             <button class="mt-2 text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Distribute</button>
         </form>
     

@@ -160,10 +160,12 @@ function closeModal() {
       {@html topic.opening_artifact_embed}
     </div>
 
-    <div on:click={handleCalendarClick} class="mt-8 mb-6 m-auto md:w-min">
+    <div class="mt-8 mb-6 m-auto md:w-min">
         <p class="block mb-2">When are you available to talk about this? <a href={topic.meeting_room} class="text-underline text-blue-500">(Meeting Room)</a></p>
         <p class="block mb-2">Initial your name in the calendar blocks below. (Timezone: CET)</p>
+        <div on:click={handleCalendarClick}>
         {@html topic.sync_calendar_times}
+        </div>
       </div>
     </div>
 </div>
