@@ -133,7 +133,7 @@ function closeModal() {
         console.log(body_submission);
         console.log(typeof body_submission);
     
-        const response = await fetch(`http://nocodb-production-58e5.up.railway.app/nc/making_things_real_rest_Eu7R/api/v1/topics/${topic.id}`, {
+        const response = await fetch(`https://nocodb-production-58e5.up.railway.app/nc/making_things_real_rest_Eu7R/api/v1/topics/${topic.id}`, {
                 method: 'PUT',
                 body: JSON.stringify(body_submission),
                 withCredentials: true,

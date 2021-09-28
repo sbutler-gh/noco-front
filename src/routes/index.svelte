@@ -16,7 +16,7 @@ import OpenedTopicModal from "$lib/OpenedTopicModal.svelte";
         myHeaders.append('Content-Type', 'application/json');
         myHeaders.append('xc-token', 'hYIxUCPsWRKc2q3_L0HXWHqpP3gEnPvKN9lhFY_D');
 
-        const response = await fetch('http://nocodb-production-58e5.up.railway.app/nc/making_things_real_rest_Eu7R/api/v1/topics', {
+        const response = await fetch('https://nocodb-production-58e5.up.railway.app/nc/making_things_real_rest_Eu7R/api/v1/topics', {
                 method: 'GET',
                 withCredentials: true,
                 headers: myHeaders
@@ -53,7 +53,7 @@ import OpenedTopicModal from "$lib/OpenedTopicModal.svelte";
     console.log(body_submission);
     console.log(typeof body_submission);
 
-    const response = await fetch('http://nocodb-production-58e5.up.railway.app/nc/making_things_real_rest_Eu7R/api/v1/artifacts', {
+    const response = await fetch('https://nocodb-production-58e5.up.railway.app/nc/making_things_real_rest_Eu7R/api/v1/artifacts', {
             method: 'POST',
             body: JSON.stringify(body_submission),
             withCredentials: true,
@@ -92,7 +92,7 @@ import OpenedTopicModal from "$lib/OpenedTopicModal.svelte";
         console.log(body_submission);
         console.log(typeof body_submission);
     
-        const response = await fetch('http://nocodb-production-58e5.up.railway.app/nc/making_things_real_rest_Eu7R/api/v1/topics', {
+        const response = await fetch('https://nocodb-production-58e5.up.railway.app/nc/making_things_real_rest_Eu7R/api/v1/topics', {
                 method: 'POST',
                 body: JSON.stringify(body_submission),
                 withCredentials: true,
